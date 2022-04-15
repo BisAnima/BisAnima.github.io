@@ -1,0 +1,213 @@
+
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: middle;
+	font-family:'Noto Sans JP', sans-serif;
+	font-style: inherit;
+	font-weight: inherit;
+    background-position: right;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+body,html {
+    width:100%;
+    height: 100%;
+    margin: 0 auto;
+    letter-spacing: 0px;
+}
+
+.max-height {
+  height: 100%;
+  width:100%; 
+  overflow: auto;
+}
+
+
+
+body{
+    background-image:url(../images/bg/bg1.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-999;
+}
+
+
+/* scroll-bar start */
+/*Chrome*/
+::-webkit-scrollbar {/*縦方向スクロールバーの幅*/
+    width: 4px;
+}
+::-webkit-scrollbar:horizontal {/*横方向スクロールバーの高さ*/
+    height: 4px;
+}
+::-webkit-scrollbar-track {/*スクロールバーの軌道*/
+    background: rgba(62,62,62,0.1);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {/*つまみの部分*/
+    border-radius: 10px;
+    background:rgba(200,200,200,0.2);
+}
+::-webkit-scrollbar-thumb:hover {/*マウスホバー時*/
+    background: rgba(200,200,200,0.3);
+}
+/*Firefox*/
+.hljs {/*適用させる箇所のID, クラスに置き換えてください*/
+    scrollbar-width: thin;/*細さ(幅・高さ両方に適用)*/
+    scrollbar-color: rgba(200,200,200,0.1), rgba(62,62,62,0.1);/*つまみの色 軌道の色*/
+}
+/* scroll-bar end*/
+
+.backdot{
+    background-image:url(../images/bg/dot.png);
+    position: fixed;
+    background-attachment: fixed;
+    background-position: right;
+    right:0;
+    width:100%;
+    height:100%;
+    overflow: auto;
+    z-index:-5;
+}
+
+/* top */
+
+.menubar{
+    position:relative;
+    width:320px;
+    height:100%;
+    left:0px;
+    top: 0;
+    bottom:0em;
+    overflow: auto;
+    bottom:0;
+    background-image:url(../images/bg/menubar.png);
+    z-index:10;
+}
+
+.logo{
+    padding-top:20px;
+    padding-left:10px;
+    height:173px;
+    z-index:20;
+	position:sticky;
+}
+
+
+.menu{
+    padding-top:50px;
+    left:30px;
+    width:240px;
+    height:500px;
+    line-height: 120px;
+    position:sticky;
+    z-index:20;
+}
+
+.copy{
+    width:600px;
+    height:60%;
+    left:520px;
+    margin-right:140px;
+    bottom:0;
+    top:24%;
+    margin:0 auto;
+    position:absolute;
+    z-index: 10;
+}
+
+
+/* ▲top */
+
+.container{
+	background-image:url(../images/bg/bg.png);
+    background-repeat: repeat;
+	width: 93%;
+	height:85%;
+	top: 80px;
+    left:60px;
+	position: relative;
+	border-radius: 65px;
+    z-index:6;
+}
+
+.container > .main1{
+    display: flex;
+    flex-wrap: wrap;
+	position: relative;
+	right:-10px;
+    top:-30px;
+	margin: 10px 20px;
+	overflow-y:scroll;
+	width: 93%;
+	height: 93%;
+	color: #1D100f;
+}	
+    
+.content-1{
+	margin: 0px 30px;
+	width: 550px;
+	height: 600px;
+	top: 5px;
+    margin-bottom: 0px;
+    display: inline-block;
+    position: -webkit-sticky;/*Safari用*/
+    position: sticky;
+}
+    
+.content-2{
+    margin:0 auto;
+	width: 380px;
+	height: 99%;
+    top:5px;
+    display: inline-block;
+	position: relative;
+}
+
+.content-2 p{
+    margin-left: -5px;
+	font-size: 14px;
+    line-height:16px;
+}
+
+h1{
+    font-family: 'Kelly Slab', cursive;
+    font-size: 40px;
+    text-shadow:9px 3px 0px #fff;
+    margin:1;
+    padding:4px;
+    display: inline-block;
+	position: relative;
+}
+
+.txt1{
+    margin:0px 0px;
+    width: 580px;
+    height: 600px;
+    left:5px;
+    top:25px;
+    line-height:24px;
+    display: inline-block;
+	position: relative;
+}
+
+.txt1  p{
+	font-size: 14px;
+    line-height: 16px;
+    padding-top:6px;
+    padding-bottom: 4px;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝1200px以下の見え方＝＝＝＝＝＝＝＝＝＝＝＝＝*/

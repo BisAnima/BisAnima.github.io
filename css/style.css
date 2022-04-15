@@ -1,0 +1,17 @@
+body {
+    animation-name: fadePage;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadePage {
+    0% {opacity: 0} /*アニメーション開始時は完全に透過*/
+    100% {opacity: 1} /*アニメーション終了時は透過しない*/
+}
+
+/*旧 Safari 用のベンダー処理*/
+@-webkit-keyframes fadePage {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+

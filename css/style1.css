@@ -1,0 +1,89 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	background: #FFF;
+	position:relative;
+	font-size:14px;
+	line-height:1.8em;
+	background:url(../images/bg/bg1.png) top center no-repeat;
+	background-attachment:fixed;
+	background-position: right bottom; 
+	background-size: cover; 
+}
+
+#main{
+	width:960px;
+	margin-left:0px;
+	background:fff;
+	position:relative;
+	padding-top:30px;
+	padding-bottom:30px;
+	margin:auto;
+	background:url(../images/main2.png) repeat;
+	font-weight:600;
+	border-top: none;
+	border-right: solid 1px #CCCCCC;
+	border-bottom: solid 1px #CCCCCC;
+	border-left: solid 1px #CCCCCC;
+}
+
+#titleline{
+	background:#FFB000;
+	height:50px;
+	width:940px;
+	color:#fff;
+	margin:auto;
+	padding:5px 10px 0px 10px;
+	margin-bottom:20px;
+	font-family:Georgia, "Times New Roman", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:20px;
+	line-height:40px;
+}
+
+#txtbox{
+	width:870px;
+	margin:auto;
+	padding:30px 10px 10px 30px;
+	color:#555555;
+}
+
+#linkbox{
+	background:#FFB000;
+	height:30px;
+	width:940px;
+	color:#fff;
+	margin:auto;
+	padding:5px 10px 0px 10px;
+	margin-bottom:20px;
+	text-align:center;
+	font-size:16px;
+	letter-spacing: 0.3em;
+}
+
+a{text-decoration:none; color:#fff;}
+a:hover{text-decoration:none; color:#ffb000;}
+
+
+#pagetop {
+	width: 59px;
+	height: auto;
+	float: left;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+#pagetop a {
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 3px 5px 5px;
+	text-align: center;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+#pagetop a:hover {
+	opacity: 0.8;
+}

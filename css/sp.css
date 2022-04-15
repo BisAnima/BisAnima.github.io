@@ -1,98 +1,137 @@
-@charset "utf-8";
-/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: middle;
+	font-family:'Noto Sans JP', sans-serif;
+	font-style: inherit;
+	font-weight: inherit;
+    background-position: right;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
 
 body{
-	width:100%;
-	margin:0;
-	padding:0;
-    font-family: 'Kelly Slab', cursive;
-    font-family: 'Shippori Mincho', serif;
-	position:relative;
-	background-image:url(../images/bg1.png);
+    background-image:url(../img/bg1.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size:cover;
-	background-attachment:fixed;
-
-}
-
-img{border:none;}
-
-a{text-decoration:none; color:#CCC;}
-
-
-#main{
-	width:95%;
-	background-image:url(../images/main1.png);
-	margin-left:0px;
-	padding-top:2em;
-	padding-bottom:3em;    
-    font-family: 'Kelly Slab', cursive;
-    font-family: 'Shippori Mincho', serif;
-	margin:auto;
-}
-
-#titleline{
-	background:#0c3e8e;
-	height:2em;
-	width:96%;
-	color:#fff;
-	margin:auto;
-    font-family: 'Kelly Slab', cursive;
-    font-family: 'Shippori Mincho', serif;
-	padding:1em 0.5em 0.5em 0.5em;
-	margin-bottom:1em;
-	text-align:right;
-	font-size:36px;
-}
-
-#txtbox{
-	width:90%;
-	color:#222;
-	margin:auto;
-	padding:1em 1em 3em 1em;
-	margin-bottom:20em;
-	line-height:1.8em;
-	text-align:left;
-    font-family: 'Kelly Slab', cursive;
-    font-family: 'Shippori Mincho', serif;
-	font-size:24px;
+    width:480px;
 }
 
 
-#linkbox{
-	background:#0c3e8e;
-	height:2em;
-	width:96%;
-	color:#fff;
-	margin:auto;
-	padding:1em 0.7em 0.5em 0.6em;
-	margin-bottom:5em;
-    font-family: 'Kelly Slab', cursive;
-    font-family: 'Shippori Mincho', serif;
-	text-align:center;
-	font-size:28px;
+.page{
+    position: fixed;
+/* 
+    background-image:url();
+*/
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto,cover;
+    right:0;
+    height:100%;
+    z-index:5;
 }
 
-#pagetop {
-	width: 59px;
-	height: auto;
+.logo{
 	float: left;
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
+	position: relative;
+	top: 10px;
+	left: 60px;
+    z-index:7;
 }
-#pagetop a {
-	width: 100%;
-	height: auto;
-	float: left;
-	padding: 3px 5px 5px;
-	text-align: center;
-	border-radius: 5px;
-	box-sizing: border-box;
-}
-#pagetop a:hover {
-	opacity: 0.8;
+
+.container{
+	margin:10px 20px 10px 20px;
+	background-image:url(../img/w2.png);
+    background-position: center;
+    height:720px;
+	width: 440px;
+	top: 80px;
+	position: relative;
+	border-radius: 25px;
+    z-index:6;
 }
 
 
-a{text-decoration:none; color:#ffffff;}
-a:hover{text-decoration:none; color:#104aa7;}
+.main1{
+	position: relative;
+	right:-10px;
+    top:-40px;
+	margin: 10px 5px;
+	overflow: hidden;
+	overflow-y:scroll;
+	width: 92%;
+	height: 93%;
+	color: #1D100f;
+
+}	
+    
+.content-1{
+	margin: 0px 0px 0px 5px;
+	width: 400px;
+	height: 760px;
+	top: 10px;
+    display: inline-block;
+	position: relative;
+}
+    
+.content-2{
+    margin: 0px 0px 0px 5px;
+	width: 400px;
+	height: 800px;
+	left: 0px;
+    top:10px;
+    display: inline-block;
+	position: relative;
+}
+
+p{
+    line-height:16px;
+}
+
+h1{
+    font-family: 'Kelly Slab', cursive;
+    font-size: 40px;
+    text-shadow:9px 3px 0px #fff;
+    margin:1;
+    padding:4px;
+    display: inline-block;
+	position: relative;
+}
+
+.txt1{
+    margin:0px 0px;
+    width: 396px;
+    height: 600px;
+    left:10px;
+    top:25px;
+    line-height:24px;
+    display: inline-block;
+	position: relative;
+}
+
+.txt1  p{
+	font-size: 16px;
+    line-height: 18px;
+    padding-top:6px;
+    padding-bottom: 4px;
+}
+
