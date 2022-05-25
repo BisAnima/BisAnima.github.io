@@ -86,7 +86,8 @@ body{
 
 .menubar{
     position:relative;
-    width:320px;
+    width:35%;
+    max-width: 320px;
     height:100%;
     left:0px;
     top: 0;
@@ -98,99 +99,42 @@ body{
 }
 
 .logo{
-    padding-top:20px;
-    padding-left:10px;
-    height:173px;
+    padding-top:25px;
+    margin:0 auto;
+    height: 20%;
+    max-height:173px;
     z-index:20;
 	position:sticky;
 }
 
 
 .menu{
-    padding-top:50px;
-    left:30px;
-    width:240px;
+    padding-top:calc(20% + 50px);
+    margin:0 auto;
+    width:80%;
     height:500px;
     line-height: 120px;
     position:sticky;
     z-index:20;
 }
 
-.copy{
-    width:600px;
-    height:60%;
-    left:520px;
-    margin-right:140px;
+.container{
+    top:22%;
     bottom:0;
-    top:24%;
-    margin:0 auto;
+    width: max(calc(100% - 320px),65%);
+    margin-left: min(320px,35%);
     position:absolute;
     z-index: 10;
 }
 
+.container > .copy{
+    margin:0 auto;
+    width:96%;
+    max-width: 800px;
+}
+
 
 /* ▲top */
-
-.container{
-	background-image:url(../images/bg/bg.png);
-    background-repeat: repeat;
-	width: 93%;
-	height:85%;
-	top: 80px;
-    left:60px;
-	position: relative;
-	border-radius: 65px;
-    z-index:6;
-}
-
-.container > .main1{
-    display: flex;
-    flex-wrap: wrap;
-	position: relative;
-	right:-10px;
-    top:-30px;
-	margin: 10px 20px;
-	overflow-y:scroll;
-	width: 93%;
-	height: 93%;
-	color: #1D100f;
-}	
-    
-.content-1{
-	margin: 0px 30px;
-	width: 550px;
-	height: 600px;
-	top: 5px;
-    margin-bottom: 0px;
-    display: inline-block;
-    position: -webkit-sticky;/*Safari用*/
-    position: sticky;
-}
-    
-.content-2{
-    margin:0 auto;
-	width: 380px;
-	height: 99%;
-    top:5px;
-    display: inline-block;
-	position: relative;
-}
-
-.content-2 p{
-    margin-left: -5px;
-	font-size: 14px;
-    line-height:16px;
-}
-
-h1{
-    font-family: 'Kelly Slab', cursive;
-    font-size: 40px;
-    text-shadow:9px 3px 0px #fff;
-    margin:1;
-    padding:4px;
-    display: inline-block;
-	position: relative;
-}
 
 .txt1{
     margin:0px 0px;
