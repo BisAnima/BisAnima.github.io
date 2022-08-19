@@ -6,7 +6,7 @@ body{
 	margin:0;
 	padding:0;
     font-family: 'Kelly Slab', cursive;
-    font-family: 'Shippori Mincho', serif;
+    font-family: 'Zen Old Mincho', 'Shippori Mincho', serif;
 	position:relative;
 	background-image:url(../images/bg1.png);
     background-size:cover;
@@ -26,7 +26,7 @@ a{text-decoration:none; color:#CCC;}
 	padding-top:2em;
 	padding-bottom:3em;    
     font-family: 'Kelly Slab', cursive;
-    font-family: 'Shippori Mincho', serif;
+    font-family: 'Zen Old Mincho', 'Shippori Mincho', serif;
 	margin:auto;
 }
 
@@ -37,7 +37,7 @@ a{text-decoration:none; color:#CCC;}
 	color:#fff;
 	margin:auto;
     font-family: 'Kelly Slab', cursive;
-    font-family: 'Shippori Mincho', serif;
+    font-family: 'Zen Old Mincho', 'Shippori Mincho', serif;
 	padding:1em 0.5em 0.5em 0.5em;
 	margin-bottom:1em;
 	text-align:right;
@@ -53,7 +53,7 @@ a{text-decoration:none; color:#CCC;}
 	line-height:1.8em;
 	text-align:left;
     font-family: 'Kelly Slab', cursive;
-    font-family: 'Shippori Mincho', serif;
+    font-family: 'Zen Old Mincho', 'Shippori Mincho', serif;
 	font-size:24px;
 }
 
@@ -67,7 +67,7 @@ a{text-decoration:none; color:#CCC;}
 	padding:1em 0.7em 0.5em 0.6em;
 	margin-bottom:5em;
     font-family: 'Kelly Slab', cursive;
-    font-family: 'Shippori Mincho', serif;
+    font-family: 'Zen Old Mincho', 'Shippori Mincho', serif;
 	text-align:center;
 	font-size:28px;
 }

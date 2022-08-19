@@ -13,7 +13,7 @@ body{
 	background-position: right bottom; 
 	background-size: cover; 
     font-family: 'Kelly Slab', cursive;
-    font-family: 'Shippori Mincho', serif;
+    font-family: 'Zen Old Mincho', 'Shippori Mincho', serif;
 }
 
 #main{
@@ -37,7 +37,7 @@ body{
 	padding:10px 10px 0px 10px;
     margin-bottom:15px;
 	font-family: 'Kelly Slab', cursive;
-    font-family: 'Shippori Mincho', serif;
+    font-family: 'Zen Old Mincho', 'Shippori Mincho', serif;
 	font-size:30px;
 	line-height:40px;
 }
@@ -64,7 +64,7 @@ body{
 	letter-spacing: 0.3em;
 }
 
-a{text-decoration:none; color:#fff;}
+a{text-decoration:none; color:#ffffff;}
 a:hover{text-decoration:none; color:#104aa7;}
 
 
